@@ -20,7 +20,7 @@ import com.wakaleo.gameoflife.domain.Universe;
  */
 @Controller
 @RequestMapping("/game")
-public class GameController {
+/*public class GameController {
 	// For generating random thread sleep times
     private Random randomGenerator = new Random();
 
@@ -33,7 +33,7 @@ public class GameController {
         thinkABit(250); // Pause for random time
         return mav;
     }
-
+*/
 	// Clicking the "Go" button on the cell selection page loads the initial step of the game
     @RequestMapping("/start")
     public ModelAndView firstGeneration(@RequestParam("rows") final int rows,
